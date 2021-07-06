@@ -1,9 +1,13 @@
 # build output
 dist
 .next
+!/packages/next/dist
+!/packages/next/node_modules/**/dist
 
 # dependencies
 node_modules
+!/packages/next/node_modules
+!/packages/next/node_modules/**/node_modules
 package-lock.json
 yarn.lock
 !/yarn.lock
